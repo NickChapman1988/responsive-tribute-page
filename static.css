@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Akshar', sans-serif;
+}
+
+#title,
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title h2,
+#tribute-link {
+    color: white;
+    font-weight: 700;
+}
+
+main,
+#title,
+footer {
+    background-color: rgba(34, 140, 219, 0.5)
+}
+
+#trophies {
+    background-color: white;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-caption {
+    padding: 10px 0 0 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tribute-info {
+    padding: 25px 0;
+    max-width: 80%;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#img-caption {
+    display: flex;
+    justify-content: center;
+}
+
+#trophies {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    padding-right: 30px;
+    margin: 50px 0;
+}
+
+#trophies h3 {
+    align-self: center;
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+#btt-button {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#btt-button:hover {
+    font-size: 18px;
+}
